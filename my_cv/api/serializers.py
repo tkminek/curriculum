@@ -6,3 +6,9 @@ class JobSerializer(ModelSerializer):
     class Meta:
         model = Job
         fields = "__all__"
+
+
+class BasicInfoSerializer(ModelSerializer):
+    class Meta:
+        model = BasicInfo
+        fields = "__all__"

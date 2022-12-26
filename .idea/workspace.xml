@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cv/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cv/api/urls.py" afterDir="false" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PYTHON\PROJECTS\curriculum\my_cv\api\static\api\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,6 +51,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672066595628</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1672068536105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672068536105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -52,5 +71,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
