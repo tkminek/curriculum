@@ -17,5 +17,4 @@ class BasicInfo(models.Model):
     address = models.CharField(max_length=100)
     email = models.CharField(max_length=100)
     telephone = models.CharField(max_length=100)
-    image = models.ImageField(null=True)
 

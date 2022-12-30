@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="add models(Job, BasicINfo) and their api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
   <component name="ProjectId" id="2JSLZnTzbAl3c86JKTfyJnYAYm5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672068536105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add models(Job, BasicINfo) and their api">
+      <created>1672088052879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672088052879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,9 +80,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add models(Job, BasicINfo) and their api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models(Job, BasicINfo) and their api" />
   </component>
 </project>
