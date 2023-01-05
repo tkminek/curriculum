@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import JobItem from './JobItem';
-
-const JobList = () => {
-    const [show, setShow] = useState(false);
+import ListGroup from 'react-bootstrap/ListGroup';
+const JobList = () => {    
 
     let [jobList, setJobList] = useState([])
     useEffect(() => {
@@ -16,13 +15,13 @@ const JobList = () => {
         setJobList(data)
     }
   return (
-    <div>
+    <ListGroup defaultActiveKey="0">
         {jobList.map((item, index) => {
             return(
                     <JobItem key={index} item={item}/>
             )
         })} 
-    </div>
+    </ListGroup>
   )
 }
 

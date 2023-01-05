@@ -7,7 +7,8 @@ import BasicInfoPage from './pages/BasicInfoPage';
 import HomePage from './pages/HomePage';
 import CodingPage from './pages/CodingPage';
 import JobPage from './pages/JobPage';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (

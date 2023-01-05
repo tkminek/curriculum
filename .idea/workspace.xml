@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="add models(Job, BasicINfo) and their api">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update models.py and urls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/JobItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/JobItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/JobList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/JobList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/BasicInfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/BasicInfoPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672088052879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update models.py and urls">
+      <created>1672412968959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672412968959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add models(Job, BasicINfo) and their api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add models(Job, BasicINfo) and their api" />
+    <MESSAGE value="update models.py and urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="update models.py and urls" />
   </component>
 </project>
