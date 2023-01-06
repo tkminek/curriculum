@@ -10,12 +10,17 @@ export const MenuItems = [
         cName: "nav-links"
     },
     {
+        title: "Education",
+        url: "/education",
+        cName: "nav-links"
+    },
+    {
         title: "Job history",
         url: "/job",
         cName: "nav-links"
     },
     {
-        title: "Coding knowledge",
+        title: "Coding experiences",
         url: "/coding",
         cName: "nav-links"
     }

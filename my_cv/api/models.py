@@ -8,6 +8,22 @@ class Job(models.Model):
     start_date = models.DateField()
     end_date = models.CharField(max_length=100)
 
+    def __str__(self):
+        return f"{self.company} - {self.position}"
+
+
+class School(models.Model):
+    type = models.CharField(max_length=100, null=True)
+    name = models.CharField(max_length=100)
+    faculty = models.CharField(max_length=100)
+    department = models.CharField(max_length=100, null=True)
+    comment = models.TextField(blank=True, null=True)
+    start_date = models.CharField(max_length=100)
+    end_date = models.CharField(max_length=100)
+
+    def __str__(self):
+        return f"{self.name} ({self.start_date} - {self.end_date})"
+
 
 class BasicInfo(models.Model):
     name = models.CharField(max_length=100)
@@ -18,3 +34,5 @@ class BasicInfo(models.Model):
     email = models.CharField(max_length=100)
     telephone = models.CharField(max_length=100)
 
+    def __str__(self):
+        return f"{self.name} {self.surname}"

@@ -12,3 +12,9 @@ class BasicInfoSerializer(ModelSerializer):
     class Meta:
         model = BasicInfo
         fields = "__all__"
+
+
+class SchoolSerializer(ModelSerializer):
+    class Meta:
+        model = School
+        fields = "__all__"
