@@ -9,7 +9,7 @@ const JobPage = () => {
     <Container fluid>
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
-        <h1 style={{textAlign: "center"}}>Job history</h1>
+        <h1 style={{textAlign: "center"}}>Possitions</h1>
         </Col>        
       </Row>
       <Row>
