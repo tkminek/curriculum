@@ -18,3 +18,9 @@ class SchoolSerializer(ModelSerializer):
     class Meta:
         model = School
         fields = "__all__"
+
+
+class ProgramingProjectSerializer(ModelSerializer):
+    class Meta:
+        model = ProgramingProject
+        fields = "__all__"

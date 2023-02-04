@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Alert from 'react-bootstrap/Alert';
-import { useTypewriter } from 'react-simple-typewriter'
+import { useTypewriter } from 'react-simple-typewriter';
+import { motion } from "framer-motion/dist/framer-motion"
 
 const HomePage = () => {
   const [text] = useTypewriter({
@@ -22,7 +23,7 @@ const HomePage = () => {
             </p>
           </Alert>
         </Col>
-      </Row>
+      </Row>      
     </Container>
   )
 }

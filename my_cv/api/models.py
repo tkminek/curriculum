@@ -1,3 +1,5 @@
+from django.utils.translation import gettext_lazy as _
+
 from django.db import models
 
 
@@ -36,3 +38,16 @@ class BasicInfo(models.Model):
 
     def __str__(self):
         return f"{self.name} {self.surname}"
+
+
+def upload_to(instance, filename):
+    return 'images/{filename}'.format(filename=filename)
+
+
+class ProgramingProject(models.Model):
+    project_name = models.CharField(max_length=100)
+    description = models.TextField(blank=True, null=True)
+    image_url = models.ImageField(_("Image"), upload_to=upload_to, blank=True, null=True)
+
+    def __str__(self):
+        return f"{self.project_name}"

@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from "react-bootstrap/Image";
 import photo from "../images/photo.png"
 import InfoTable from '../components/BasicInfo/InfoTable';
+import { ScaleDownAnimation } from '../animations/Animations'
 
 
 const BasicInfoPage = () => {
@@ -20,20 +21,22 @@ const BasicInfoPage = () => {
         setBasicInfo(data)
     }
   return (
-    <Container fluid>
-      <Row>
-        <Col xs={6} md={6}>
-          <h1 style={{textAlign: "center"}}>Basic informations</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={6} md={6}>
-          <InfoTable basicInfo = {basicInfo}/>
-        </Col>
-        <Col xs={6} md={6}>          
-          <Image width="300" className="rounded mx-auto d-block" src={photo} fluid/>
-        </Col>
-      </Row>
+    <Container fluid>      
+        <Row>
+          <Col xs={6} md={6}>
+            <h1 style={{textAlign: "center"}}>Basic informations</h1>
+          </Col>
+        </Row>
+        <ScaleDownAnimation>
+          <Row>        
+            <Col xs={6} md={6}>
+              <InfoTable basicInfo = {basicInfo}/>
+            </Col>
+            <Col xs={6} md={6}>          
+              <Image width="300" className="rounded mx-auto d-block" src={photo} fluid/>
+            </Col>
+          </Row>
+      </ScaleDownAnimation>
     </Container>
   )
 }

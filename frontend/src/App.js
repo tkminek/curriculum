@@ -23,7 +23,7 @@ function App() {
             <Route path ="/basic" element={<BasicInfoPage/>}/>
             <Route path ="/education" element={<EducationPage/>}/>
             <Route path ="/job" element={<JobPage/>}/>
-            <Route path ="/coding" element={<CodingPage/>}/>
+            <Route path ="/project" element={<CodingPage/>}/>
           </Routes>
         </Container>
       </div>

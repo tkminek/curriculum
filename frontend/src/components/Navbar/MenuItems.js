@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: "Coding experiences",
-        url: "/coding",
+        url: "/project",
         cName: "nav-links"
     }
 ]
