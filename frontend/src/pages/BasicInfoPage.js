@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from "react-bootstrap/Image";
-import photo from "../images/photo.png"
+
 import InfoTable from '../components/BasicInfo/InfoTable';
 import { ScaleDownAnimation } from '../animations/Animations'
 
@@ -33,7 +33,7 @@ const BasicInfoPage = () => {
               <InfoTable basicInfo = {basicInfo}/>
             </Col>
             <Col xs={6} md={6}>          
-              <Image width="300" className="rounded mx-auto d-block" src={photo} fluid/>
+              <Image width="300" className="rounded mx-auto d-block" src={basicInfo.image_url} fluid/>
             </Col>
           </Row>
       </ScaleDownAnimation>

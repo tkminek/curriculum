@@ -3,6 +3,10 @@ from django.utils.translation import gettext_lazy as _
 from django.db import models
 
 
+def upload_to(instance, filename):
+    return 'images/{filename}'.format(filename=filename)
+
+
 class Job(models.Model):
     company = models.CharField(max_length=100)
     position = models.CharField(max_length=100)
@@ -35,13 +39,10 @@ class BasicInfo(models.Model):
     address = models.CharField(max_length=100)
     email = models.CharField(max_length=100)
     telephone = models.CharField(max_length=100)
+    image_url = models.ImageField(_("Image"), upload_to=upload_to, blank=True, null=True)
 
     def __str__(self):
         return f"{self.name} {self.surname}"
-
-
-def upload_to(instance, filename):
-    return 'images/{filename}'.format(filename=filename)
 
 
 class ProgramingProject(models.Model):
