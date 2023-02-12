@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update pictures">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="dark theme applied">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/BasicInfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/BasicInfoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/JobPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/JobPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/photo.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675613806625</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dark theme applied">
+      <created>1676222326333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676222326333</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +134,7 @@
     <MESSAGE value="update models.py and urls" />
     <MESSAGE value="stylizing with bootstrap" />
     <MESSAGE value="update pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pictures" />
+    <MESSAGE value="dark theme applied" />
+    <option name="LAST_COMMIT_MESSAGE" value="dark theme applied" />
   </component>
 </project>
