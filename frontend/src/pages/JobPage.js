@@ -10,6 +10,7 @@ const JobPage = () => {
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
         <h1 style={{textAlign: "center"}}>Possitions</h1>
+        <br></br>
         </Col>        
       </Row>
       <Row>

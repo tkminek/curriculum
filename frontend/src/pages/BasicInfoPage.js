@@ -30,10 +30,12 @@ const BasicInfoPage = () => {
         <ScaleDownAnimation>
           <Row>        
             <Col xs={6} md={6}>
+              <br></br>
+              <br></br>
               <InfoTable basicInfo = {basicInfo}/>
             </Col>
             <Col xs={6} md={6}>          
-              <Image width="300" className="rounded mx-auto d-block" src={basicInfo.image_url} fluid/>
+              <Image width="250" className="rounded mx-auto d-block" src={basicInfo.image_url} fluid/>
             </Col>
           </Row>
       </ScaleDownAnimation>
