@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="add description">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="add also front end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CodingExperiences/CodingItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CodingExperiences/CodingItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Education/EducationList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Education/EducationList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Job/JobItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Job/JobItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676227275325</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update coding experiences">
+      <created>1678572957899</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678572957899</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add also front end">
+      <created>1678573056010</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678573056010</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +161,8 @@
     <MESSAGE value="update pictures" />
     <MESSAGE value="dark theme applied" />
     <MESSAGE value="add description" />
-    <option name="LAST_COMMIT_MESSAGE" value="add description" />
+    <MESSAGE value="update coding experiences" />
+    <MESSAGE value="add also front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="add also front end" />
   </component>
 </project>

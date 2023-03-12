@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { ScaleDownAnimation } from '../../animations/Animations';
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
+import './Job.css'
 
 const JobItem = ({item}) => {
     const [show, setShow] = useState(false);
@@ -15,10 +16,10 @@ const JobItem = ({item}) => {
         <div className="d-grid gap-2">
             <Card style={{ width: '18rem', border: "0" }}>
                 <Card.Body>
-                <Card.Title>{item.position}</Card.Title>
-                <Card.Text>{item.company}</Card.Text>
-                    <Button variant="dark" size="sm" onClick = {() => setShow(!show)}>
-                    More info   
+                <Card.Title style={{ fontWeight: 'bold', textDecorationLine: 'underline'}}>{item.position}</Card.Title>
+                <Card.Text style={{fontStyle: 'italic'}}>{item.company}</Card.Text>
+                    <Button variant="dark" onClick = {() => setShow(!show)}>
+                    {show ? "Show less" : "Show more"}   
                     </Button>
                 </Card.Body>
             </Card>

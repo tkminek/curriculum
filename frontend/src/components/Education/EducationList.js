@@ -17,7 +17,11 @@ const EducationList = () => {
     <ListGroup defaultActiveKey="0">
         {EducationList.map((item, index) => {
             return(
+                <div>
+                <br></br>
                     <EducationItem key={index} item={item}/>
+                <br></br>
+                </div>
             )
         })} 
     </ListGroup>

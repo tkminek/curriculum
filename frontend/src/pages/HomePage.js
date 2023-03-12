@@ -8,7 +8,7 @@ import { motion } from "framer-motion/dist/framer-motion"
 
 const HomePage = () => {
   const [text] = useTypewriter({
-    words: ["Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque porta. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Praesent vitae arcu tempor neque lacinia pretium. Sed convallis magna eu sem. Integer malesuada."],
+    words: ["Where I would like to introduce myself and potentially reach out to future employers."],
     loop: 1,
     typeSpeed: 30,
   })
