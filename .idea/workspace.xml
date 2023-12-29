@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="vercel deployment">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="remove vercel">
       <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/vercel.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703868785544</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="remove vercel">
+      <created>1703869168973</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703869168973</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +196,7 @@
     <MESSAGE value="combine react into django project" />
     <MESSAGE value="add requirements.txt" />
     <MESSAGE value="vercel deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="vercel deployment" />
+    <MESSAGE value="remove vercel" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove vercel" />
   </component>
 </project>
