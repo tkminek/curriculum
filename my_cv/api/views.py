@@ -3,7 +3,6 @@ from .serializers import JobSerializer, BasicInfoSerializer, SchoolSerializer, P
 from rest_framework import generics
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.parsers import MultiPartParser, FormParser
 
 
 class JobList(generics.ListCreateAPIView):
