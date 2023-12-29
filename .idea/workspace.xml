@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="add requirements.txt">
+      <change afterPath="$PROJECT_DIR$/my_cv/vercel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/animations/Animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/BasicInfo/InfoTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CodingExperiences/CodingItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CodingExperiences/CodingList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Education/EducationItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Education/EducationList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Job/JobItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Job/JobList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar/MenuItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar/Navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/BasicInfoPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/CodingPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EducationPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/JobPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678627251791</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="combine react into django project">
+      <created>1703867626613</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703867626613</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add requirements.txt">
+      <created>1703867858550</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703867858550</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +182,8 @@
     <MESSAGE value="update coding experiences" />
     <MESSAGE value="add also front end" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="combine react into django project" />
+    <MESSAGE value="add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
   </component>
 </project>
