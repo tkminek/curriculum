@@ -7,22 +7,21 @@
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "frontend/build/**",
+      "src": "my_cv/frontend/build/**",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "frontend/build"
+        "distDir": "my_cv/frontend/build"
       }
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "frontend/build/static/$1"
+      "dest": "staticfiles/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "frontend/build/index.html"
+      "dest": "my_cv/wsgi.py"
     }
   ]
 }
-
