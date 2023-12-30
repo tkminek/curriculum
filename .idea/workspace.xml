@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="vercel.json update 3">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="vercel.json update 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/vercel.json" afterDir="false" />
     </list>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703953034441</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="vercel.json update 4">
+      <created>1703953967826</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703953967826</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,7 @@
     <MESSAGE value="vercel.json update" />
     <MESSAGE value="vercel.json update 2" />
     <MESSAGE value="vercel.json update 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="vercel.json update 3" />
+    <MESSAGE value="vercel.json update 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="vercel.json update 4" />
   </component>
 </project>

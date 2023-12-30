@@ -7,10 +7,10 @@
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "frontend/build/**",
+      "src": "my_cv/frontend/build/**",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "frontend/build"
+        "distDir": "my_cv/frontend/build"
       }
     }
   ],
