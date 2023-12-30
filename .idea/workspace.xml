@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 2" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703962836437</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update vercel 3">
+      <created>1703963137067</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1703963137067</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +353,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="combine react into django project" />
     <MESSAGE value="add requirements.txt" />
     <MESSAGE value="vercel deployment" />
@@ -369,6 +377,7 @@
     <MESSAGE value="update before git modification" />
     <MESSAGE value="update vercel 1" />
     <MESSAGE value="update vercel 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update vercel 2" />
+    <MESSAGE value="update vercel 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vercel 3" />
   </component>
 </project>
