@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update according to git" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update according to git 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +37,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PYTHON\PROJECTS\curriculum" />
       <recent name="D:\PYTHON\PROJECTS\curriculum\my_cv" />
+      <recent name="D:\PYTHON\PROJECTS\curriculum" />
       <recent name="D:\PYTHON\PROJECTS\curriculum\my_cv\api\static\api\images" />
     </key>
   </component>
@@ -286,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703960968703</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update according to git 2">
+      <created>1703961362139</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1703961362139</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +312,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update pictures" />
     <MESSAGE value="dark theme applied" />
     <MESSAGE value="add description" />
     <MESSAGE value="update coding experiences" />
@@ -327,6 +336,7 @@
     <MESSAGE value="vercel.json update 9" />
     <MESSAGE value="vercel.json update 10" />
     <MESSAGE value="update according to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="update according to git" />
+    <MESSAGE value="update according to git 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update according to git 2" />
   </component>
 </project>

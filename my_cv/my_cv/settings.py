@@ -116,7 +116,7 @@ STATIC_URL = '/static/'
 
 # This is where Django will collect and store static files during deployment
 STATIC_ROOT = os.path.join(
-    BASE_DIR, 'staticfiles', 'static')
+    BASE_DIR, 'staticfiles')
 
 # These are additional directories to look for static files
 STATICFILES_DIRS = [os.path.join(
