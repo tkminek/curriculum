@@ -1,27 +1,27 @@
 {
-    "builds": [{
-        "src": "my_cv/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "my_cv/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "build.sh",
+      "src": "my_cv/frontend/public/**",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "staticfiles"
+        "distDir": "my_cv/frontend/public"
       }
     }
-    ],
-    "routes": [
-        {
-            "src": "/static/(.*)",
-            "dest": "/static/$1"
-        },
-
-        {
-            "src": "/(.*)",
-            "dest": "my_cv/wsgi.py"
-        }
-    ],
-    "outputDirectory": "staticfiles"
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "staticfiles/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "my_cv/wsgi.py"
+    }
+  ]
 }
