@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="vercel.json update 7">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="vercel.json update 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703955859559</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="vercel.json update 8">
+      <created>1703956644160</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703956644160</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +278,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="add models(Job, BasicINfo) and their api" />
     <MESSAGE value="update models.py and urls" />
     <MESSAGE value="stylizing with bootstrap" />
@@ -296,6 +302,7 @@
     <MESSAGE value="vercel.json update 5" />
     <MESSAGE value="vercel.json update 6" />
     <MESSAGE value="vercel.json update 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="vercel.json update 7" />
+    <MESSAGE value="vercel.json update 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="vercel.json update 8" />
   </component>
 </project>
