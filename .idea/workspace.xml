@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 9">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 10">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +34,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_cv" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PYTHON\PROJECTS\curriculum\my_cv" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PYTHON\PROJECTS\curriculum\my_cv" />
       <recent name="D:\PYTHON\PROJECTS\curriculum" />
@@ -49,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066595628</updated>
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1672068536105</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1672068536105</updated>
     </task>
     <task id="LOCAL-00002" summary="add models(Job, BasicINfo) and their api">
       <created>1672088052879</created>
@@ -393,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703967320384</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="update vercel 10">
+      <created>1703967505744</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1703967505744</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +415,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vercel config" />
     <MESSAGE value="vercel update" />
     <MESSAGE value="vercel.json update" />
     <MESSAGE value="vercel.json update 2" />
@@ -434,6 +439,7 @@
     <MESSAGE value="update vercel 7" />
     <MESSAGE value="update vercel 8" />
     <MESSAGE value="update vercel 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="update vercel 9" />
+    <MESSAGE value="update vercel 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vercel 10" />
   </component>
 </project>
