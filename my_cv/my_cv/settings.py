@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-fht6ql4%pbwm8#&)xb$j5wk%r(_996yr&70z8an=u^l(_xg#8)"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition
@@ -120,8 +120,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# This is where Django will collect and store static files during deployment
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# These are additional directories to look for static files
 STATICFILES_DIRS = [
-    BASE_DIR/'frontend/build/static'
+    BASE_DIR / 'frontend/build/static',
 ]
 
 # Default primary key field type
@@ -130,7 +134,6 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_ALLOW_ALL = True
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

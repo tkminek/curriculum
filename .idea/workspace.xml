@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="remove vercel">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="DEBUG = True">
+      <change afterPath="$PROJECT_DIR$/my_cv/build_files.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_cv/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703869168973</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="DEBUG = fALSE">
+      <created>1703870048944</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703870048944</updated>
+    </task>
+    <task id="LOCAL-00019" summary="DEBUG = True">
+      <created>1703870088800</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1703870088800</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +215,8 @@
     <MESSAGE value="add requirements.txt" />
     <MESSAGE value="vercel deployment" />
     <MESSAGE value="remove vercel" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove vercel" />
+    <MESSAGE value="DEBUG = fALSE" />
+    <MESSAGE value="DEBUG = True" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEBUG = True" />
   </component>
 </project>
