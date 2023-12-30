@@ -4,13 +4,13 @@
     {
       "src": "my_cv/wsgi.py",
       "use": "@vercel/python",
-      "config": { "maxLambdaSize": "30mb", "runtime": "python3.9" }
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "my_cv/frontend/build/**",
+      "src": "my_cv/frontend/public/**",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "my_cv/frontend/build"
+        "distDir": "my_cv/frontend/public"
       }
     }
   ],
