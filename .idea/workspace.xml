@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update before git modification">
-      <change beforePath="$PROJECT_DIR$/my_cv/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/vercel.json" afterDir="false" />
-    </list>
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703962109498</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update vercel 1">
+      <created>1703962191293</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1703962191293</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +337,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update coding experiences" />
     <MESSAGE value="add also front end" />
     <MESSAGE value="update" />
     <MESSAGE value="combine react into django project" />
@@ -357,6 +361,7 @@
     <MESSAGE value="update according to git 2" />
     <MESSAGE value="update according to git 3" />
     <MESSAGE value="update before git modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="update before git modification" />
+    <MESSAGE value="update vercel 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vercel 1" />
   </component>
 </project>

@@ -1,0 +1,8 @@
+# .vercelignore
+node_modules
+venv
+.git
+.gitignore
+.vercel
+.vercelignore
+my_cv
