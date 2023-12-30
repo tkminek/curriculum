@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 4" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="update vercel 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -349,7 +349,28 @@
       <option name="project" value="LOCAL" />
       <updated>1703963776032</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update vercel 5">
+      <created>1703964024464</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1703964024464</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update vercel 6">
+      <created>1703964079960</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1703964079960</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update vercel 7">
+      <created>1703964240308</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1703964240308</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,9 +386,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add requirements.txt" />
-    <MESSAGE value="vercel deployment" />
-    <MESSAGE value="remove vercel" />
     <MESSAGE value="DEBUG = fALSE" />
     <MESSAGE value="DEBUG = True" />
     <MESSAGE value="vercel config" />
@@ -390,6 +408,9 @@
     <MESSAGE value="update vercel 2" />
     <MESSAGE value="update vercel 3" />
     <MESSAGE value="update vercel 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="update vercel 4" />
+    <MESSAGE value="update vercel 5" />
+    <MESSAGE value="update vercel 6" />
+    <MESSAGE value="update vercel 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vercel 7" />
   </component>
 </project>
