@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="add qunicorn">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="render.com 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,13 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066595628</updated>
-    </task>
-    <task id="LOCAL-00005" summary="stylizing with bootstrap">
-      <created>1673019174173</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673019174173</updated>
     </task>
     <task id="LOCAL-00006" summary="stylizing with bootstrap">
       <created>1673110189339</created>
@@ -397,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704551725383</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="render.com 1">
+      <created>1704552178126</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1704552178126</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +411,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vercel.json update 3" />
     <MESSAGE value="vercel.json update 4" />
     <MESSAGE value="vercel.json update 5" />
     <MESSAGE value="vercel.json update 6" />
@@ -438,6 +435,7 @@
     <MESSAGE value="update vercel 11" />
     <MESSAGE value="update vercel 12" />
     <MESSAGE value="add qunicorn" />
-    <option name="LAST_COMMIT_MESSAGE" value="add qunicorn" />
+    <MESSAGE value="render.com 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="render.com 1" />
   </component>
 </project>
