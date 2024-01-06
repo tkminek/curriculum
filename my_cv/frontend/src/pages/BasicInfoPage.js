@@ -21,25 +21,19 @@ const BasicInfoPage = () => {
         setBasicInfo(data)
     }
   return (
-    <Container fluid>      
-        <Row>
-          <Col xs={6} md={6}>
-            <h1 style={{textAlign: "center"}}>Basic informations</h1>
-          </Col>
-        </Row>
-        <ScaleDownAnimation>
-          <Row>        
-            <Col xs={6} md={6}>
-              <br></br>
-              <br></br>
-              <InfoTable basicInfo = {basicInfo}/>
-            </Col>
-            <Col xs={6} md={6}>          
-              <Image width="250" className="rounded mx-auto d-block" src={basicInfo.image_url} fluid/>
-            </Col>
-          </Row>
+<Container fluid style={{ display: 'flex', flexDirection: 'column' }}>
+  <Row style={{ marginTop: '20px' }}>
+    <Col xs={12} md={6} style={{ marginTop: '60px' }}>
+      <h1 style={{ textAlign: "center", marginBottom: '10px' }}>Basic informations</h1>
+      <InfoTable basicInfo={basicInfo} style={{ marginBottom: '20px' }} />
+    </Col>
+    <Col xs={12} md={6}>
+      <ScaleDownAnimation>
+        <Image className="rounded mx-auto d-block img-fluid" src={basicInfo.image_url} alt="Basic Info" style={{ maxWidth: '50%' }} />
       </ScaleDownAnimation>
-    </Container>
+    </Col>
+  </Row>
+</Container>
   )
 }
 
