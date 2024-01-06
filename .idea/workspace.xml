@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="render.com 6" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="render.com 7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/precache-manifest.aa97b430d52c7d12cbc26bc121546fa2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/1.ef04d2d4.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/1.ef04d2d4.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/main.0e74ac91.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/main.0e74ac91.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/1.3c4156a1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/1.3c4156a1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/main.8ec6169f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/main.8ec6169f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/runtime~main.229c360f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/runtime~main.229c360f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/src/components/CodingExperiences/CodingList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/frontend/src/components/CodingExperiences/CodingList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/src/pages/CodingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/frontend/src/pages/CodingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/frontend/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/frontend/src/pages/HomePage.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066595628</updated>
-    </task>
-    <task id="LOCAL-00011" summary="update coding experiences">
-      <created>1678572957899</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1678572957899</updated>
     </task>
     <task id="LOCAL-00012" summary="add also front end">
       <created>1678573056010</created>
@@ -395,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704555600636</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="render.com 7">
+      <created>1704555873628</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1704555873628</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +431,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vercel.json update 9" />
     <MESSAGE value="vercel.json update 10" />
     <MESSAGE value="update according to git" />
     <MESSAGE value="update according to git 2" />
@@ -436,6 +455,7 @@
     <MESSAGE value="render.com 4" />
     <MESSAGE value="render.com 5" />
     <MESSAGE value="render.com 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="render.com 6" />
+    <MESSAGE value="render.com 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="render.com 7" />
   </component>
 </project>

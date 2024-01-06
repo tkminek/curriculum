@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import CodingItem from '../CodingExperiences/CodingItem';
 import ListGroup from 'react-bootstrap/ListGroup';
 import {
-    MDBRow,
+    MDBRow,MDBCol
   } from 'mdb-react-ui-kit';
 
 const CodingList = () => {    
@@ -18,12 +18,12 @@ const CodingList = () => {
         setCodingList(data)
     }
   return (   
-    <MDBRow className='row-cols-2 row-cols-md-2 g-4'>      
-        {CodingList.map((item, index) => {
-            return(
-                    <CodingItem key={index} item={item}/>
-            )
-        })}
+    <MDBRow className='g-4'>
+      {CodingList.map((item, index) => (
+        <MDBCol key={index} lg={4} md={6}>
+          <CodingItem item={item} />
+        </MDBCol>
+      ))}
     </MDBRow>
   )
 }

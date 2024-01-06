@@ -7,11 +7,11 @@ import Col from 'react-bootstrap/Col';
 const CodingPage = () => {
   return (
     <Container fluid>
-      <Row>
-        <Col md={{ span: 6, offset: 3 }}>          
+      <Row className='justify-content-center'>
+        <Col md={9}>
           <CodingList />
         </Col>
-      </Row>            
+      </Row>
     </Container>
   )
 }

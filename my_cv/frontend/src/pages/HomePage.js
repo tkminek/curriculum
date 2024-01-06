@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Alert from 'react-bootstrap/Alert';
 import { useTypewriter } from 'react-simple-typewriter';
-
+import PythonLogo from '../components/Home/PythonLogo';
 
 const HomePage = () => {
   const [text] = useTypewriter({
@@ -13,15 +13,16 @@ const HomePage = () => {
     typeSpeed: 30,
   })
   return (
-    <Container>
+    <Container className="d-flex align-items-center justify-content-center" style={{ height: '50vh' }}>
       <Row>
         <Col md={6}>
-          <Alert variant="light">
+          <Alert variant="light" style={{ marginBottom: '20px' }}>
             <Alert.Heading>Hello and welcome to my profile page.</Alert.Heading>
-            <p>
-              {text}
-            </p>
+            <p>{text}</p>
           </Alert>
+        </Col>
+        <Col md={6}>
+          <PythonLogo />
         </Col>
       </Row>
     </Container>
