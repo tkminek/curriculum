@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="render.com 1" />
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="render.com 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066595628</updated>
-    </task>
-    <task id="LOCAL-00006" summary="stylizing with bootstrap">
-      <created>1673110189339</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1673110189339</updated>
     </task>
     <task id="LOCAL-00007" summary="stylizing with bootstrap">
       <created>1675527601762</created>
@@ -395,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704552178126</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="render.com 2">
+      <created>1704552548922</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1704552548922</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +414,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vercel.json update 4" />
     <MESSAGE value="vercel.json update 5" />
     <MESSAGE value="vercel.json update 6" />
     <MESSAGE value="vercel.json update 7" />
@@ -436,6 +438,7 @@
     <MESSAGE value="update vercel 12" />
     <MESSAGE value="add qunicorn" />
     <MESSAGE value="render.com 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="render.com 1" />
+    <MESSAGE value="render.com 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="render.com 2" />
   </component>
 </project>
