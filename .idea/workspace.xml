@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="render.com 7">
+    <list default="true" id="3b86bf18-c7a6-459a-b2e3-43b2c78e5a64" name="Changes" comment="Final implementation of CV wepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/precache-manifest.9843b88f3923095f20d87cad13b7d572.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/1.b6d9fda3.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/1.b6d9fda3.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/main.23fe11d3.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/css/main.23fe11d3.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/1.29cc1ec5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/1.29cc1ec5.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/main.333442d6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/main.333442d6.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/runtime~main.229c360f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/build/static/js/runtime~main.229c360f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/frontend/src/pages/BasicInfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/frontend/src/pages/BasicInfoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/my_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cv/my_cv/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/admin/css/autocomplete.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/admin/css/base.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/admin/css/changelists.css" beforeDir="false" />
@@ -155,8 +139,8 @@
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/css/main.23fe11d3.chunk.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/1.29cc1ec5.chunk.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/1.29cc1ec5.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/main.333442d6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/main.333442d6.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/main.0b2ee5e5.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/main.0b2ee5e5.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/runtime~main.229c360f.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/js/runtime~main.229c360f.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_cv/staticfiles/rest_framework/css/bootstrap-theme.min.css" beforeDir="false" />
@@ -244,13 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672066595628</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update">
-      <created>1678627251791</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1678627251791</updated>
     </task>
     <task id="LOCAL-00014" summary="combine react into django project">
       <created>1703867626613</created>
@@ -588,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704568126248</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Final implementation of CV wepage">
+      <created>1704569798974</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1704569798974</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +588,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vercel.json update 10" />
     <MESSAGE value="update according to git" />
     <MESSAGE value="update according to git 2" />
     <MESSAGE value="update according to git 3" />
@@ -629,6 +612,7 @@
     <MESSAGE value="render.com 5" />
     <MESSAGE value="render.com 6" />
     <MESSAGE value="render.com 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="render.com 7" />
+    <MESSAGE value="Final implementation of CV wepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final implementation of CV wepage" />
   </component>
 </project>
