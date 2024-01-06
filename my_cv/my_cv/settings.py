@@ -83,9 +83,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / "db.sqlite3",
-        # 'OPTIONS': {
-        #     'deterministic': True,  # Use this only if SQLite >= 3.8.3
-        # },
     },
 }
 
